@@ -4,14 +4,6 @@ A high-performance, robust RESTful backend API built using **FastAPI**, **Pydant
 
 ---
 
-## 📞 Live Voice Demo Details
-
-- **Phone Number to Call**: `+1 (978) 838-4920`
-- **Live API Base URL**: `https://f212-110-38-240-181.ngrok-free.app`
-- **Interactive API Docs (Swagger)**: `https://f212-110-38-240-181.ngrok-free.app/docs`
-
----
-
 ## 🌟 Features
 
 - **Full RESTful Patient CRUD**:
@@ -176,7 +168,7 @@ pytest -v
 To connect your Vapi Voice Assistant to this API backend:
 
 ### 0. System Prompt / LLM Instruction
-A complete, production-ready system prompt adhering to all assessment requirements (natural conversational tone, validation, readback confirmation, optional field opt-in, and duplicate checking) is included in [**VAPI_SYSTEM_PROMPT.md**](file:///home/harris/Desktop/WorkSpace/Vapi%20Voice%20Agent%20Api/VAPI_SYSTEM_PROMPT.md). Copy and paste its contents into your Vapi Assistant System Prompt box.
+A complete, production-ready system prompt adhering to all assessment requirements (natural conversational tone, validation, readback confirmation, optional field opt-in, and duplicate checking) is included in [**VAPI_SYSTEM_PROMPT.md**](VAPI_SYSTEM_PROMPT.md). Copy and paste its contents into your Vapi Assistant System Prompt box.
 
 ### 1. Function Tool Definition in Vapi (`create_patient`)
 Add a Custom Function Tool in your Vapi Assistant configuration with:
